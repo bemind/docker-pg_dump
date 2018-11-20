@@ -1,0 +1,7 @@
+# For testing - run every minute
+#0 22 * * * root /backups.sh 2>&1
+
+# Run the backups at 9pm each night
+#0 21 * * * root /backups.sh 2>&1
+
+# We need a blank line here for it to be a valid cron file
